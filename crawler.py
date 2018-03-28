@@ -55,9 +55,9 @@ async def run(n, domain):
 
 
 if __name__ == '__main__':
-    domain = 'nbc.com'
+    domain = 'google.com'
     seen = set()
-    num_workers = 30
+    num_workers = 8
     q = asyncio.Queue()
     q.put_nowait('https://{}'.format(domain))
     seen.add(domain)
