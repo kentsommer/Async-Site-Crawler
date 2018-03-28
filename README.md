@@ -5,3 +5,4 @@ Requires:
 * [Python 3.4+](https://www.python.org/)
 * [AIOHTTP](https://aiohttp.readthedocs.io/en/stable/)
 * [BeautifulSoup 4](https://www.crummy.com/software/BeautifulSoup/)
+* [lxml](http://lxml.de/)
